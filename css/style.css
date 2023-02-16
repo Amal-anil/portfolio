@@ -1,0 +1,31 @@
+/* author:AMAL A M */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bar {
+    border-top: solid #ff0000 5px;
+    background-color: #eeeeee;
+}
+.socialmedia img {
+    width: 15px;
+}
+
+.last {
+    border: 0;
+    background-color: #e4e2e2;
+}
+p {
+    margin: 0;
+}
+.pic :hover {
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 576px) {
+    .picture,
+    .img {
+        text-align: center;
+    }
+}
